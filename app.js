@@ -22,12 +22,14 @@ let equalButton = document.getElementById("equalBtn");
 let Display = document.getElementById("display");
 let previousOperandElement = document.getElementById("previous-operand");
 let doubleZeroButton = document.getElementById("doubleZeroBtn");
+
 //Variables to store user input
 let currentOperand = "";
 let previousOperand = "";
 let operand = null;
 let operation = null;
 let digit = null;
+
 //Event Listner to all buttons and calls the apppendNumber function when clicked
 zeroButton.addEventListener('click', () => {
     appendNumber(0);
